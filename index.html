@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+  />
+    <title>Proyecto 3</title>
+</head>
+<body>
+    <div>
+        <div>
+            <canvas id="myChart" width="150px" height="100px"></canvas>
+        </div>
+        <div>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <td>Rank</td>
+                        <td>Name</td>
+                        <td>Price</td>
+                        <td>Market Cap</td>
+                        <td>VWAP (24Hr)</td>
+                        <td>Supply</td>
+                        <td>Volumne (24Hr)</td>
+                        <td>Change (24Hr)</td>
+                    </tr>
+                </thead>
+                <tbody id="tblValores">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="main.js"></script>
+</html>
